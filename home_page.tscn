@@ -177,10 +177,10 @@ horizontal_alignment = 1
 
 [node name="Docs" type="TextureButton" parent="."]
 layout_mode = 0
-offset_left = 1632.0
-offset_top = 800.0
-offset_right = 2144.0
-offset_bottom = 1312.0
+offset_left = 1600.0
+offset_top = 768.0
+offset_right = 2112.0
+offset_bottom = 1280.0
 scale = Vector2(0.25, 0.25)
 texture_normal = ExtResource("5_8svjg")
 texture_pressed = ExtResource("5_8svjg")

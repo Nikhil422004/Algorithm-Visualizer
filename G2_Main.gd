@@ -133,21 +133,21 @@ func _initialize_dijkstras():
 func set_text(state):
 	if state == AlgorithmState.INITIAL:
 		Header.text = ""
-		Instr.text = "Press ▲ for Dijkstras Algorithm.\n Press ► for Extended BFS Algorithm"
+		Instr.text = "Press Up Arrow for Dijkstras Algorithm.\n Press Right Arrow for Extended BFS Algorithm"
 		
 	else:
 		if state == AlgorithmState.DIJKSTRA:
 			Header.text = "dijkstras algorithm"
 			if dijkstras.current_step == 0:
-				Instr.text = "Reched Initial State. Press ▲ for going forward and ▼ for going back."
+				Instr.text = "Reched Initial State. Press Up Arrow for going forward and Down Arrow for going back."
 			else:
-				Instr.text = "Press ▲ for going forward and ▼ for going back."
+				Instr.text = "Press Up Arrow for going forward and Down Arrow for going back."
 		if state == AlgorithmState.BFS:
 			Header.text = "extended bfs algorithm"
 			if bfs.current_state_index == 0:
-				Instr.text = "Reched Initial State. Press ► for going forward and ◄ for going back."
+				Instr.text = "Reched Initial State. Press Right Arrow for going forward and Left Arrow for going back."
 			else:
-				Instr.text = "Press ► for going forward and ◄ for going back."
+				Instr.text = "Press Right Arrow for going forward and Left Arrow for going back."
 				
 # Input handling
 func _input(event):

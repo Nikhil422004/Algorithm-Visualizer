@@ -1,3 +1,8 @@
 res://SplashPage.tscn
 res://home_page.tscn
-res://Graph1.tscn
+res://G1_Main.gd
+res://G2_Main.gd
+res://G3_Main.gd
+res://G4_Main.gd
+res://G5_Main.gd
+res://G6_Main.gd
