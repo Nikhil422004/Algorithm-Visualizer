@@ -1,0 +1,463 @@
+[gd_scene load_steps=13 format=3 uid="uid://c63n7fnby8at7"]
+
+[ext_resource type="FontFile" uid="uid://o4464lojjdxy" path="res://Assets/kenney_ui-pack/Font/Kenney Future.ttf" id="1_sjitw"]
+[ext_resource type="Texture2D" uid="uid://dd1ltgphlpng0" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="2_sap1d"]
+[ext_resource type="Script" path="res://back_button.gd" id="3_36t5s"]
+[ext_resource type="Texture2D" uid="uid://cxg1degjm28ug" path="res://Assets/kenney_planets/Planets/planet01.png" id="4_w83je"]
+[ext_resource type="Texture2D" uid="uid://dytj7rtoqpmf2" path="res://Assets/kenney_planets/Planets/planet00.png" id="5_h21b2"]
+[ext_resource type="Texture2D" uid="uid://cbi2a545ig8jh" path="res://Assets/kenney_planets/Planets/planet03.png" id="6_iclnv"]
+[ext_resource type="Texture2D" uid="uid://1c7pcea6p8hy" path="res://Assets/kenney_planets/Planets/planet04.png" id="7_80gp1"]
+[ext_resource type="Texture2D" uid="uid://rlnp6p2iiawv" path="res://Assets/kenney_planets/Planets/planet05.png" id="8_124lv"]
+[ext_resource type="Texture2D" uid="uid://db7vwn8mu3coj" path="res://Assets/kenney_planets/Planets/planet06.png" id="9_hmniq"]
+[ext_resource type="Texture2D" uid="uid://cmurynjnksgte" path="res://Assets/kenney_planets/Planets/planet07.png" id="10_emk4q"]
+[ext_resource type="Texture2D" uid="uid://c4eomw0ogdjog" path="res://Assets/kenney_planets/Planets/planet08.png" id="11_2vn6x"]
+[ext_resource type="Texture2D" uid="uid://msmodoyeo4dw" path="res://Assets/kenney_planets/Planets/planet09.png" id="12_k5se2"]
+
+[node name="G1 Page" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Heading" type="Label" parent="."]
+layout_mode = 0
+offset_left = 382.0
+offset_top = 16.0
+offset_right = 718.0
+offset_bottom = 80.0
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 50
+text = "Graph   1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.028
+anchor_top = 0.037
+anchor_right = 0.056
+anchor_bottom = 0.086
+offset_left = -0.256001
+offset_top = 0.0240002
+offset_right = 31.488
+offset_bottom = 32.272
+scale = Vector2(0.565535, 0.565535)
+texture_normal = ExtResource("2_sap1d")
+texture_pressed = ExtResource("2_sap1d")
+script = ExtResource("3_36t5s")
+
+[node name="Graph1" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_top = 88.0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="A" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(280, 160)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("4_w83je")
+
+[node name="B" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(480, 40)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("5_h21b2")
+
+[node name="C" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(464, 256)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("6_iclnv")
+
+[node name="D" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(248, 392)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("7_80gp1")
+
+[node name="E" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(704, 120)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("8_124lv")
+
+[node name="F" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(616, 344)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("9_hmniq")
+
+[node name="G" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(448, 504)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("10_emk4q")
+
+[node name="H" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(816, 248)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("11_2vn6x")
+
+[node name="I" type="Sprite2D" parent="Graph1"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(1024, 184)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("12_k5se2")
+
+[node name="ALabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 144.0
+offset_right = 297.0
+offset_bottom = 179.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BLabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 472.0
+offset_top = 27.0
+offset_right = 497.0
+offset_bottom = 62.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CLabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 240.0
+offset_right = 481.0
+offset_bottom = 275.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "C"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DLabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 235.0
+offset_top = 374.0
+offset_right = 260.0
+offset_bottom = 409.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "D"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 692.0
+offset_top = 102.0
+offset_right = 717.0
+offset_bottom = 137.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "E"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FLabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 606.0
+offset_top = 327.0
+offset_right = 631.0
+offset_bottom = 362.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "F"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GLabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 439.0
+offset_top = 486.0
+offset_right = 464.0
+offset_bottom = 521.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "G"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HLabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 805.0
+offset_top = 231.0
+offset_right = 830.0
+offset_bottom = 266.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "H"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ILabel" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 1016.0
+offset_top = 168.0
+offset_right = 1040.0
+offset_bottom = 203.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_sjitw")
+theme_override_font_sizes/font_size = 30
+text = "I"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Edge1" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(158, -9)
+points = PackedVector2Array(144, 152, 296, 56)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge2" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(160, 24)
+points = PackedVector2Array(144, 144, 288, 216)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge3" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(-120, 208)
+points = PackedVector2Array(368, 160, 392, -24)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge4" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(360, -16)
+points = PackedVector2Array(144, 56, 320, 128)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge5" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(344, 88)
+points = PackedVector2Array(144, 152, 344, 48)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge6" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(344, 126)
+points = PackedVector2Array(144, 144, 248, 202)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge7" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(120, 224)
+points = PackedVector2Array(144, 152, 328, 48)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge8" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(-104, 424)
+points = PackedVector2Array(528, 72, 368, -16)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge9" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(584, 64)
+points = PackedVector2Array(144, 56, 416, 112)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge10" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(360, 216)
+points = PackedVector2Array(280, 112, 432, 48)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge11" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(192, 376)
+points = PackedVector2Array(272, 112, 400, -24)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="Edge12" type="Line2D" parent="Graph1"]
+z_index = -1
+position = Vector2(568, 136)
+points = PackedVector2Array(272, 104, 440, 64)
+width = 5.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel1" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 342.0
+offset_top = 72.0
+offset_right = 372.0
+offset_bottom = 102.0
+theme_override_font_sizes/font_size = 20
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel2" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 368.0
+offset_top = 168.0
+offset_right = 398.0
+offset_bottom = 198.0
+theme_override_font_sizes/font_size = 20
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel3" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 208.0
+offset_top = 259.0
+offset_right = 238.0
+offset_bottom = 289.0
+theme_override_font_sizes/font_size = 20
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel4" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 606.0
+offset_top = 48.0
+offset_right = 636.0
+offset_bottom = 78.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel5" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 163.0
+offset_right = 574.0
+offset_bottom = 193.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel6" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 272.0
+offset_right = 574.0
+offset_bottom = 302.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel7" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 312.0
+offset_top = 296.0
+offset_right = 342.0
+offset_bottom = 326.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel8" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 299.0
+offset_top = 456.0
+offset_right = 329.0
+offset_bottom = 486.0
+theme_override_font_sizes/font_size = 20
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel9" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 864.0
+offset_top = 117.0
+offset_right = 894.0
+offset_bottom = 147.0
+theme_override_font_sizes/font_size = 20
+text = "7"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel10" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 728.0
+offset_top = 304.0
+offset_right = 758.0
+offset_bottom = 334.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel11" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 432.0
+offset_right = 566.0
+offset_bottom = 462.0
+theme_override_font_sizes/font_size = 20
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ELabel12" type="Label" parent="Graph1"]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 232.0
+offset_right = 934.0
+offset_bottom = 262.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="gui_input" from="TextureButton" to="." method="_on_texture_button_gui_input"]
+[connection signal="gui_input" from="TextureButton" to="TextureButton" method="_on_gui_input"]
+[connection signal="mouse_entered" from="TextureButton" to="." method="_on_texture_button_mouse_entered"]
+[connection signal="mouse_entered" from="TextureButton" to="TextureButton" method="_on_mouse_entered"]
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]

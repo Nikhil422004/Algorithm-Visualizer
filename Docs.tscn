@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://btpqxo8pva2le"]
+
+[ext_resource type="Script" path="res://docs.gd" id="1_nx62r"]
+[ext_resource type="FontFile" uid="uid://beavhlqd0561i" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf" id="2_g1pmb"]
+[ext_resource type="Texture2D" uid="uid://dd1ltgphlpng0" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="3_cn36l"]
+[ext_resource type="Script" path="res://back_button.gd" id="4_qxb8d"]
+
+[node name="G1 Page" type="Node"]
+script = ExtResource("1_nx62r")
+
+[node name="Heading" type="Label" parent="."]
+offset_left = 728.0
+offset_top = 48.0
+offset_right = 1064.0
+offset_bottom = 112.0
+theme_override_fonts/font = ExtResource("2_g1pmb")
+theme_override_font_sizes/font_size = 45
+text = "ABOUT "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="."]
+anchors_preset = -1
+anchor_left = 0.028
+anchor_top = 0.037
+anchor_right = 0.056
+anchor_bottom = 0.086
+offset_left = 37.6
+offset_top = 20.85
+offset_right = 101.2
+offset_bottom = 75.3
+scale = Vector2(0.565535, 0.565535)
+texture_normal = ExtResource("3_cn36l")
+texture_pressed = ExtResource("3_cn36l")
+stretch_mode = 0
+script = ExtResource("4_qxb8d")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 200.0
+offset_top = 120.0
+offset_right = 1656.0
+offset_bottom = 928.0
+theme_override_font_sizes/italics_font_size = 18
+theme_override_font_sizes/normal_font_size = 16
+theme_override_font_sizes/bold_font_size = 18
+bbcode_enabled = true
+
+[connection signal="gui_input" from="TextureButton" to="TextureButton" method="_on_gui_input"]
+[connection signal="mouse_entered" from="TextureButton" to="TextureButton" method="_on_mouse_entered"]
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]

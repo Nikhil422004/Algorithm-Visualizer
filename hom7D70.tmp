@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0d5b1bwauax6"]
+
+[ext_resource type="FontFile" uid="uid://b5ot4xgog6p33" path="res://Assets/kenney_ui-pack/Font/Kenney Future Narrow.ttf" id="1_15idj"]
+[ext_resource type="Script" path="res://home_page.gd" id="1_22nhp"]
+
+[node name="HomePage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_22nhp")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 24.0
+offset_right = 1120.0
+offset_bottom = 96.0
+theme_override_fonts/font = ExtResource("1_15idj")
+theme_override_font_sizes/font_size = 35
+text = "Select    an   Algorithm   to   Visualize"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.198
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -0.304016
+offset_right = -20.0
+offset_bottom = -20.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2

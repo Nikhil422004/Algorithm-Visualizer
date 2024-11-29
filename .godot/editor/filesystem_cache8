@@ -1,0 +1,160 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732895307
+Algorithm Visualizer.apple-touch-icon.png::CompressedTexture2D::8442348921290925505::1732881388::1732881646::1::::<><>::
+Algorithm Visualizer.icon.png::CompressedTexture2D::4674188526689360197::1732881388::1732881646::1::::<><>::
+Algorithm Visualizer.png::CompressedTexture2D::8176229688108520216::1732881388::1732881646::1::::<><>::
+back_button.gd::GDScript::-1::1724588608::0::1::::<>TextureButton<>::
+bfs.gd::GDScript::-1::1732792563::0::1::::<>Node<>::
+card.gd::GDScript::-1::1732857619::0::1::::<>Control<>::
+dijkstras.gd::GDScript::-1::1732793118::0::1::::<>Node<>::
+docs.gd::GDScript::-1::1732859273::0::1::::<>Node<>::
+Docs.tscn::PackedScene::3751987711285762774::1732857843::0::1::::<><>::res://docs.gd<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd
+export_presets.cfg::TextFile::-1::1732881389::0::1::::<><>::
+G1_Main.gd::GDScript::-1::1732813473::0::1::::<>Node<>::
+G2_Main.gd::GDScript::-1::1732811237::0::1::::<>Node<>::
+G3_Main.gd::GDScript::-1::1732818334::0::1::::<>Node<>::
+G4_Main.gd::GDScript::-1::1732822878::0::1::::<>Node<>::
+G5_Main.gd::GDScript::-1::1732824584::0::1::::<>Node<>::
+G6_Main.gd::GDScript::-1::1732827562::0::1::::<>Node<>::
+Graph1.tscn::PackedScene::8869778595421159723::1732857842::0::1::::<><>::res://G1_Main.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://deta8l4xigdyn::::res://Assets/kenney_planets/Planets/planet02.png<>uid://msmodoyeo4dw::::res://Assets/kenney_planets/Planets/planet09.png<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cmurynjnksgte::::res://Assets/kenney_planets/Planets/planet07.png<>uid://db7vwn8mu3coj::::res://Assets/kenney_planets/Planets/planet06.png<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://d0wra7svd5xv8::::res://PNGs/help.png<>res://info.gd<>uid://dq7gucq8ywa0l::::res://PNGs/HelpInfo.png
+Graph2(old).tscn::PackedScene::1114526679223616147::1731944693::0::1::::<><>::uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>res://bfs.gd<>res://dijkstras.gd
+Graph2.tscn::PackedScene::869419797136675510::1732822878::0::1::::<><>::uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>res://G2_Main.gd<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://d0wra7svd5xv8::::res://PNGs/help.png<>res://info.gd<>uid://dq7gucq8ywa0l::::res://PNGs/HelpInfo.png
+Graph3.tscn::PackedScene::8404624479061685804::1732822878::0::1::::<><>::res://G3_Main.gd<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://d0wra7svd5xv8::::res://PNGs/help.png<>res://info.gd<>uid://dq7gucq8ywa0l::::res://PNGs/HelpInfo.png
+Graph4.tscn::PackedScene::1745795169924484955::1732824705::0::1::::<><>::res://G4_Main.gd<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://deta8l4xigdyn::::res://Assets/kenney_planets/Planets/planet02.png<>uid://msmodoyeo4dw::::res://Assets/kenney_planets/Planets/planet09.png<>uid://cmurynjnksgte::::res://Assets/kenney_planets/Planets/planet07.png<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://d0wra7svd5xv8::::res://PNGs/help.png<>res://info.gd<>uid://dq7gucq8ywa0l::::res://PNGs/HelpInfo.png
+Graph5.tscn::PackedScene::9001833364353245204::1732825048::0::1::::<><>::res://G5_Main.gd<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://deta8l4xigdyn::::res://Assets/kenney_planets/Planets/planet02.png<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://d0wra7svd5xv8::::res://PNGs/help.png<>res://info.gd<>uid://dq7gucq8ywa0l::::res://PNGs/HelpInfo.png
+Graph6.tscn::PackedScene::7823983229867310721::1732857842::0::1::::<><>::res://G6_Main.gd<>uid://beavhlqd0561i::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://deta8l4xigdyn::::res://Assets/kenney_planets/Planets/planet02.png<>uid://msmodoyeo4dw::::res://Assets/kenney_planets/Planets/planet09.png<>uid://cmurynjnksgte::::res://Assets/kenney_planets/Planets/planet07.png<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://d0wra7svd5xv8::::res://PNGs/help.png<>res://info.gd<>uid://dq7gucq8ywa0l::::res://PNGs/HelpInfo.png
+Graph10.tscn::PackedScene::7007344846367813774::1731945141::0::1::::<><>::uid://o4464lojjdxy::::res://Assets/kenney_ui-pack/Font/Kenney Future.ttf<>uid://dd1ltgphlpng0::::res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png<>res://back_button.gd<>uid://cxg1degjm28ug::::res://Assets/kenney_planets/Planets/planet01.png<>uid://dytj7rtoqpmf2::::res://Assets/kenney_planets/Planets/planet00.png<>uid://cbi2a545ig8jh::::res://Assets/kenney_planets/Planets/planet03.png<>uid://1c7pcea6p8hy::::res://Assets/kenney_planets/Planets/planet04.png<>uid://rlnp6p2iiawv::::res://Assets/kenney_planets/Planets/planet05.png<>uid://db7vwn8mu3coj::::res://Assets/kenney_planets/Planets/planet06.png<>uid://cmurynjnksgte::::res://Assets/kenney_planets/Planets/planet07.png<>uid://c4eomw0ogdjog::::res://Assets/kenney_planets/Planets/planet08.png<>uid://msmodoyeo4dw::::res://Assets/kenney_planets/Planets/planet09.png
+home_page.tscn::PackedScene::4149159571635263181::1732859341::0::1::::<><>::uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>res://card.gd<>uid://bmxpiysfflf4w::::res://PNGs/G1.png<>uid://dyvlxkhhfafql::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.ttf<>uid://whwua384i0xu::::res://PNGs/doc.png<>uid://dtc5psixa3qix::::res://PNGs/G2.png<>uid://8eth6afhih1y::::res://PNGs/G3.png<>uid://do3q8g10j41n1::::res://PNGs/G4.png<>uid://mvlp0173prgd::::res://PNGs/G5.png<>uid://t1dxv734qoh4::::res://PNGs/G6.png
+icon.svg::CompressedTexture2D::3431773987170624592::1724511653::1724578013::1::::<><>::
+info.gd::GDScript::-1::1732810970::0::1::::<>TextureButton<>::
+PriorityQueue.gd::GDScript::-1::1732382433::0::1::::OptimizedPriorityQueue<>Resource<>::
+SplashPage.gd::GDScript::-1::1732857954::0::1::::<>Control<>::
+SplashPage.tscn::PackedScene::3829663501418841890::1732859340::0::1::::<><>::res://SplashPage.gd<>uid://cqiap1duwahlu::::res://PNGs/Splash BG.jpg<>uid://wpmrg0jaaa0k::::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf<>uid://b5ot4xgog6p33::::res://Assets/kenney_ui-pack/Font/Kenney Future Narrow.ttf
+::res://addons/::1724900406
+::res://Assets/::1732865202
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/::1732865081
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/::1732475288
+overview.PNG::CompressedTexture2D::7694963603790116012::1732475284::1732475288::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/architect-s-daughter/::1732475288
+Architects Daughter SIL OFL Font License.txt::TextFile::-1::1732475284::0::1::::<><>::
+ArchitectsDaughter32.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/architect-s-daughter/ArchitectsDaughter.ttf
+ArchitectsDaughter.ttf::FontFile::9036050752196976922::1732475284::1732475288::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/::1732475284
+Typewriter.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/cmu-typewriter/Typewriter/cmuntt.ttf
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/::1732475288
+cmunit.ttf::FontFile::2205205552746985142::1732475284::1732475288::1::::<><>::
+cmuntb.ttf::FontFile::1575879542926320828::1732475284::1732475288::1::::<><>::
+cmuntt.ttf::FontFile::7830871495333682669::1732475284::1732475288::1::::<><>::
+cmuntx.ttf::FontFile::7222128923062950579::1732475284::1732475288::1::::<><>::
+OFL-FAQ.txt::TextFile::-1::1732475284::0::1::::<><>::
+OFL.txt::TextFile::-1::1732475284::0::1::::<><>::
+README.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/connection/::1732475288
+Connection.otf::FontFile::7248067412596468081::1732475284::1732475288::1::::<><>::
+ConnectionBold.otf::FontFile::6952944048227557741::1732475284::1732475288::1::::<><>::
+SIL Open Font License.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/connection_ii/::1732475288
+ConnectionII.otf::FontFile::5999406192293263381::1732475284::1732475288::1::::<><>::
+ConnectionII.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/connection_ii/ConnectionII.otf
+SIL Open Font License.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/droid-sans/::1732475288
+Apache License.txt::TextFile::-1::1732475284::0::1::::<><>::
+DroidSans-Bold.ttf::FontFile::5054478833515928693::1732475284::1732475288::1::::<><>::
+DroidSans.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/droid-sans/DroidSans.ttf
+DroidSans.ttf::FontFile::1989161210085506292::1732475284::1732475288::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/::1732475288
+KiriFont.otf::FontFile::2668464218295313368::1732475284::1732475288::1::::<><>::
+Kirifont.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/kirifont/KiriFont.otf
+KiriFont.ttf::FontFile::8887855727779447727::1732475284::1732475288::1::::<><>::
+OFL.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/::1732475284
+LinuxLibertine.tres::FontFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/::1732475284
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/::1732475288
+Bugs.txt::TextFile::-1::1732475284::0::1::::<><>::
+ChangeLog.txt::TextFile::-1::1732475284::0::1::::<><>::
+GPL.txt::TextFile::-1::1732475284::0::1::::<><>::
+INSTALL.txt::TextFile::-1::1732475284::0::1::::<><>::
+LICENCE.txt::TextFile::-1::1732475284::0::1::::<><>::
+LinLibertine_DR.otf::FontFile::2227603771416943374::1732475284::1732475288::1::::<><>::
+LinLibertine_I.otf::FontFile::4437260911398198155::1732475284::1732475288::1::::<><>::
+LinLibertine_M.otf::FontFile::3139443318577768817::1732475284::1732475288::1::::<><>::
+LinLibertine_R.otf::FontFile::7974780311756013399::1732475284::1732475288::1::::<><>::
+LinLibertine_RB.otf::FontFile::6843798448660458025::1732475284::1732475288::1::::<><>::
+LinLibertine_RBI.otf::FontFile::7505335445333654225::1732475284::1732475288::1::::<><>::
+LinLibertine_RI.otf::FontFile::658160413978837991::1732475284::1732475288::1::::<><>::
+LinLibertine_RZ.otf::FontFile::5606499634200594714::1732475284::1732475288::1::::<><>::
+LinLibertine_RZI.otf::FontFile::8282065607036849876::1732475284::1732475287::1::::<><>::
+OFL-1.1.txt::TextFile::-1::1732475284::0::1::::<><>::
+Readme-TEX.txt::TextFile::-1::1732475284::0::1::::<><>::
+ToDo.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/montreal/::1732475287
+Montreal-Bold.ttf::FontFile::4850030662144057070::1732475284::1732475287::1::::<><>::
+Montreal-Regular.ttf::FontFile::7342454102100015205::1732475284::1732475287::1::::<><>::
+Montreal.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/montreal/Montreal-Regular.ttf
+OFL.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/poco/::1732475287
+CC BY 4.0.txt::TextFile::-1::1732475284::0::1::::<><>::
+Poco.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/poco/Poco.ttf
+Poco.ttf::FontFile::5257655967474881232::1732475284::1732475287::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/source-code-pro/::1732475284
+SourceCodePro.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Regular.ttf
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/::1732475284
+LICENSE.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/::1732475288
+SourceCodePro-Black.ttf::FontFile::1272852655411435441::1732475284::1732475287::1::::<><>::
+SourceCodePro-BlackIt.ttf::FontFile::6044755595034539710::1732475284::1732475287::1::::<><>::
+SourceCodePro-Bold.ttf::FontFile::3096012189205388930::1732475284::1732475287::1::::<><>::
+SourceCodePro-BoldIt.ttf::FontFile::3324637544994238790::1732475284::1732475287::1::::<><>::
+SourceCodePro-ExtraLight.ttf::FontFile::5999200661692185680::1732475284::1732475287::1::::<><>::
+SourceCodePro-ExtraLightIt.ttf::FontFile::8954597369565185731::1732475284::1732475287::1::::<><>::
+SourceCodePro-It.ttf::FontFile::1754521150523911045::1732475284::1732475287::1::::<><>::
+SourceCodePro-Light.ttf::FontFile::5875746102863844224::1732475284::1732475287::1::::<><>::
+SourceCodePro-LightIt.ttf::FontFile::337535747743558345::1732475284::1732475287::1::::<><>::
+SourceCodePro-Medium.ttf::FontFile::7095753051882632804::1732475284::1732475287::1::::<><>::
+SourceCodePro-MediumIt.ttf::FontFile::9057882520153855238::1732475284::1732475287::1::::<><>::
+SourceCodePro-Regular.ttf::FontFile::2569022445714006844::1732475284::1732475287::1::::<><>::
+SourceCodePro-Semibold.ttf::FontFile::770966961870173810::1732475284::1732475287::1::::<><>::
+SourceCodePro-SemiboldIt.ttf::FontFile::4941616072559192556::1732475284::1732475288::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/xolonium/::1732475284
+Xolonium.tres::FontFile::-1::1732475284::0::1::::<><>::res://fonts/xolonium/xolonium-fonts-4.1/ttf/Xolonium-Regular.ttf
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/xolonium/xolonium-fonts-4.1/::1732475284
+FONTLOG.txt::TextFile::-1::1732475284::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1732475284::0::1::::<><>::
+::res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/xolonium/xolonium-fonts-4.1/ttf/::1732475288
+Xolonium-Bold.ttf::FontFile::1582432971940792524::1732475284::1732475288::1::::<><>::
+Xolonium-Regular.ttf::FontFile::4715337675451749044::1732475284::1732475288::1::::<><>::
+::res://Assets/kenney_planets/::1732865175
+::res://Assets/kenney_planets/Planets/::1724900406
+planet00.png::CompressedTexture2D::8883621996965388269::1724584702::1724584727::1::::<><>::
+planet01.png::CompressedTexture2D::6401155256567230314::1724584702::1724584726::1::::<><>::
+planet02.png::CompressedTexture2D::7479300157769555225::1724584702::1724584727::1::::<><>::
+planet03.png::CompressedTexture2D::4861186213735267309::1724584702::1724584727::1::::<><>::
+planet04.png::CompressedTexture2D::1831008532042034162::1724584702::1724584727::1::::<><>::
+planet05.png::CompressedTexture2D::1216736257589428577::1724584702::1724584727::1::::<><>::
+planet06.png::CompressedTexture2D::7296826061516404557::1724584702::1724584728::1::::<><>::
+planet07.png::CompressedTexture2D::5657470791366064178::1724584702::1724584728::1::::<><>::
+planet08.png::CompressedTexture2D::6817448006109025918::1724584702::1724584728::1::::<><>::
+planet09.png::CompressedTexture2D::880178708551022368::1724584702::1724584728::1::::<><>::
+::res://Assets/kenney_ui-pack/::1732865034
+::res://Assets/kenney_ui-pack/Font/::1724900406
+Kenney Future Narrow.ttf::FontFile::4522193910227944744::1724525298::1724525332::1::::<><>::
+Kenney Future.ttf::FontFile::1044328459019949834::1724525298::1724525332::1::::<><>::
+::res://Assets/kenney_ui-pack/PNG/::1732864988
+::res://Assets/kenney_ui-pack/PNG/Grey/::1732864982
+::res://Assets/kenney_ui-pack/PNG/Grey/Double/::1732864997
+arrow_decorative_w.png::CompressedTexture2D::4649203576470889244::1724525298::1732864997::1::::<><>::
+::res://PNGs/::1732858640
+doc.png::CompressedTexture2D::1559976738827081526::1732856110::1732856118::1::::<><>::
+G1.png::CompressedTexture2D::3277093825536781516::1732858013::1732858139::1::::<><>::
+G2.png::CompressedTexture2D::8498828091226477351::1732858226::1732858266::1::::<><>::
+G3.png::CompressedTexture2D::2325657102951914232::1732858073::1732858139::1::::<><>::
+G4.png::CompressedTexture2D::8200739198662653908::1732858087::1732858139::1::::<><>::
+G5.png::CompressedTexture2D::886314085061277259::1732858571::1732858578::1::::<><>::
+G6.png::CompressedTexture2D::1387486228701966739::1732858634::1732858640::1::::<><>::
+help.png::CompressedTexture2D::8960433351009501191::1732794182::1732794191::1::::<><>::
+HelpInfo.png::CompressedTexture2D::8348743786548308397::1732812770::1732812783::1::::<><>::
+platformPack_tile011.png::CompressedTexture2D::3359186916113488946::1732792452::1732792505::1::::<><>::
+platformPack_tile023.png::CompressedTexture2D::6310074337158757876::1732792452::1732792505::1::::<><>::
+platformPack_tile024.png::CompressedTexture2D::9152957440337709545::1732792452::1732792505::1::::<><>::
+Splash BG.jpg::CompressedTexture2D::5912406045715405254::1732782060::1732782077::1::::<><>::

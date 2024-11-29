@@ -1,0 +1,885 @@
+[gd_scene load_steps=15 format=3 uid="uid://mnfhm5lyd0n7"]
+
+[ext_resource type="FontFile" uid="uid://o4464lojjdxy" path="res://Assets/kenney_ui-pack/Font/Kenney Future.ttf" id="1_clr37"]
+[ext_resource type="Script" path="res://G2_Main.gd" id="1_ncfbc"]
+[ext_resource type="FontFile" uid="uid://beavhlqd0561i" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf" id="2_atyyi"]
+[ext_resource type="Texture2D" uid="uid://dd1ltgphlpng0" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="2_ow7b6"]
+[ext_resource type="Script" path="res://back_button.gd" id="3_a01c1"]
+[ext_resource type="Texture2D" uid="uid://cxg1degjm28ug" path="res://Assets/kenney_planets/Planets/planet01.png" id="4_l5vf1"]
+[ext_resource type="Texture2D" uid="uid://dytj7rtoqpmf2" path="res://Assets/kenney_planets/Planets/planet00.png" id="5_b018n"]
+[ext_resource type="Texture2D" uid="uid://cbi2a545ig8jh" path="res://Assets/kenney_planets/Planets/planet03.png" id="6_h82cg"]
+[ext_resource type="Texture2D" uid="uid://1c7pcea6p8hy" path="res://Assets/kenney_planets/Planets/planet04.png" id="7_u6dwj"]
+[ext_resource type="Texture2D" uid="uid://rlnp6p2iiawv" path="res://Assets/kenney_planets/Planets/planet05.png" id="8_113yw"]
+[ext_resource type="FontFile" uid="uid://wpmrg0jaaa0k" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf" id="11_1k3da"]
+[ext_resource type="Texture2D" uid="uid://d0wra7svd5xv8" path="res://PNGs/help.png" id="12_nrsjv"]
+[ext_resource type="Script" path="res://info.gd" id="13_g4up3"]
+[ext_resource type="Texture2D" uid="uid://dq7gucq8ywa0l" path="res://PNGs/HelpInfo.png" id="14_vjfh4"]
+
+[node name="G2 Page" type="Node"]
+script = ExtResource("1_ncfbc")
+
+[node name="Heading" type="Label" parent="."]
+offset_left = 734.0
+offset_top = 54.0
+offset_right = 1070.0
+offset_bottom = 118.0
+theme_override_fonts/font = ExtResource("2_atyyi")
+theme_override_font_sizes/font_size = 60
+text = "Graph  2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackButton" type="TextureButton" parent="."]
+anchors_preset = -1
+anchor_left = 0.028
+anchor_top = 0.037
+anchor_right = 0.049
+anchor_bottom = 0.076
+offset_left = -10.4
+offset_top = 18.85
+offset_right = 47.8
+offset_bottom = 66.8
+scale = Vector2(0.565535, 0.565535)
+texture_normal = ExtResource("2_ow7b6")
+texture_pressed = ExtResource("2_ow7b6")
+stretch_mode = 0
+script = ExtResource("3_a01c1")
+
+[node name="Graph2" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 179.0
+offset_top = 91.0
+offset_right = 718.0
+offset_bottom = 612.0
+
+[node name="Nodes" type="Node" parent="Graph2"]
+
+[node name="A" type="Node" parent="Graph2/Nodes"]
+
+[node name="ANode" type="Sprite2D" parent="Graph2/Nodes/A"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(245, 417)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("4_l5vf1")
+
+[node name="ALabel" type="Label" parent="Graph2/Nodes/A"]
+offset_left = 237.0
+offset_top = 401.0
+offset_right = 262.0
+offset_bottom = 436.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TDlabelA" type="Label" parent="Graph2/Nodes/A"]
+offset_left = 179.0
+offset_top = 401.0
+offset_right = 214.0
+offset_bottom = 436.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="B" type="Node" parent="Graph2/Nodes"]
+
+[node name="BNode" type="Sprite2D" parent="Graph2/Nodes/B"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(421, 294)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("5_b018n")
+
+[node name="BLabel" type="Label" parent="Graph2/Nodes/B"]
+offset_left = 413.0
+offset_top = 281.0
+offset_right = 438.0
+offset_bottom = 316.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "B"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TDlabelB" type="Label" parent="Graph2/Nodes/B"]
+offset_left = 400.0
+offset_top = 216.0
+offset_right = 435.0
+offset_bottom = 251.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="C" type="Node" parent="Graph2/Nodes"]
+
+[node name="CNode" type="Sprite2D" parent="Graph2/Nodes/C"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(421, 521)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("6_h82cg")
+
+[node name="CLabel" type="Label" parent="Graph2/Nodes/C"]
+offset_left = 413.0
+offset_top = 505.0
+offset_right = 438.0
+offset_bottom = 540.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "C"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TDlabelC" type="Label" parent="Graph2/Nodes/C"]
+offset_left = 400.0
+offset_top = 564.0
+offset_right = 435.0
+offset_bottom = 599.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="D" type="Node" parent="Graph2/Nodes"]
+
+[node name="DNode" type="Sprite2D" parent="Graph2/Nodes/D"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(685, 294)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("8_113yw")
+
+[node name="DLabel" type="Label" parent="Graph2/Nodes/D"]
+offset_left = 673.0
+offset_top = 276.0
+offset_right = 698.0
+offset_bottom = 311.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "D"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TDlabelD" type="Label" parent="Graph2/Nodes/D"]
+offset_left = 663.0
+offset_top = 216.0
+offset_right = 698.0
+offset_bottom = 251.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E" type="Node" parent="Graph2/Nodes"]
+
+[node name="ENode" type="Sprite2D" parent="Graph2/Nodes/E"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(685, 519)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("7_u6dwj")
+
+[node name="ELabel" type="Label" parent="Graph2/Nodes/E"]
+offset_left = 672.0
+offset_top = 501.0
+offset_right = 697.0
+offset_bottom = 536.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "E"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TDlabelE" type="Label" parent="Graph2/Nodes/E"]
+offset_left = 668.0
+offset_top = 560.0
+offset_right = 703.0
+offset_bottom = 595.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Edges" type="Node" parent="Graph2"]
+
+[node name="E1" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge1" type="Line2D" parent="Graph2/Edges/E1"]
+z_index = -1
+position = Vector2(375, 282)
+rotation = 0.909814
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 242.056, 1596.22)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel1" type="Label" parent="Graph2/Edges/E1"]
+offset_left = 291.0
+offset_top = 320.0
+offset_right = 321.0
+offset_bottom = 350.0
+theme_override_font_sizes/font_size = 20
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E2" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge2" type="Line2D" parent="Graph2/Edges/E2"]
+z_index = -1
+position = Vector2(402, 491)
+rotation = 2.08686
+scale = Vector2(0.0922801, 0.0922801)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 211.396, 1624.35)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel2" type="Label" parent="Graph2/Edges/E2"]
+offset_left = 293.0
+offset_top = 473.0
+offset_right = 323.0
+offset_bottom = 503.0
+theme_override_font_sizes/font_size = 20
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E3" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge3" type="Line2D" parent="Graph2/Edges/E3"]
+z_index = -1
+position = Vector2(455, 492)
+rotation = 3.12539
+scale = Vector2(0.0922801, 0.0922801)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 207.651, 1900.01)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel3" type="Label" parent="Graph2/Edges/E3"]
+offset_left = 439.0
+offset_top = 387.0
+offset_right = 469.0
+offset_bottom = 417.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E4" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge4" type="Line2D" parent="Graph2/Edges/E4"]
+z_index = -1
+position = Vector2(385, 322)
+rotation = -0.0192254
+scale = Vector2(0.0922801, 0.0922801)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 201.065, 1943.97)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel4" type="Label" parent="Graph2/Edges/E4"]
+offset_left = 370.0
+offset_top = 386.0
+offset_right = 400.0
+offset_bottom = 416.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E5" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge5" type="Line2D" parent="Graph2/Edges/E5"]
+z_index = -1
+position = Vector2(654, 271)
+rotation = 1.57242
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 244.114, 2073.33)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel5" type="Label" parent="Graph2/Edges/E5"]
+offset_left = 549.0
+offset_top = 262.0
+offset_right = 579.0
+offset_bottom = 292.0
+theme_override_font_sizes/font_size = 20
+text = "2
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E6" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge6" type="Line2D" parent="Graph2/Edges/E6"]
+z_index = -1
+position = Vector2(656, 498)
+rotation = 1.57242
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 244.114, 2073.33)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel6" type="Label" parent="Graph2/Edges/E6"]
+offset_left = 549.0
+offset_top = 540.0
+offset_right = 579.0
+offset_bottom = 570.0
+theme_override_font_sizes/font_size = 20
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E7" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge7" type="Line2D" parent="Graph2/Edges/E7"]
+z_index = -1
+position = Vector2(679, 477)
+rotation = 2.29274
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 287.205, 2894)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel7" type="Label" parent="Graph2/Edges/E7"]
+offset_left = 605.0
+offset_top = 414.0
+offset_right = 635.0
+offset_bottom = 444.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E8" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge8" type="Line2D" parent="Graph2/Edges/E8"]
+z_index = -1
+position = Vector2(645, 295)
+rotation = 0.866749
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 287.205, 2894)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel8" type="Label" parent="Graph2/Edges/E8"]
+offset_left = 565.0
+offset_top = 340.0
+offset_right = 595.0
+offset_bottom = 370.0
+theme_override_font_sizes/font_size = 20
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E9" type="Node" parent="Graph2/Edges"]
+
+[node name="Edge9" type="Line2D" parent="Graph2/Edges/E9"]
+z_index = -1
+position = Vector2(662, 325)
+rotation = 0.0154134
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 266.403, 1672.83)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+
+[node name="ELabel9" type="Label" parent="Graph2/Edges/E9"]
+offset_left = 686.0
+offset_top = 390.0
+offset_right = 716.0
+offset_bottom = 420.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Header" type="Label" parent="Graph2"]
+layout_mode = 0
+offset_left = 149.0
+offset_top = 61.0
+offset_right = 525.0
+offset_bottom = 117.0
+theme_override_fonts/font = ExtResource("11_1k3da")
+theme_override_font_sizes/font_size = 35
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Instr" type="Label" parent="Graph2"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 533.0
+offset_right = 541.0
+offset_bottom = 587.0
+
+[node name="Textbox" type="RichTextLabel" parent="Graph2"]
+layout_mode = 0
+offset_left = 61.0
+offset_top = 589.0
+offset_right = 341.0
+offset_bottom = 845.0
+bbcode_enabled = true
+
+[node name="Graph2 Viz" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 812.0
+offset_top = 100.0
+offset_right = 1456.0
+offset_bottom = 792.0
+
+[node name="Nodes" type="Node" parent="Graph2 Viz"]
+
+[node name="A" type="Node" parent="Graph2 Viz/Nodes"]
+
+[node name="ANode" type="Sprite2D" parent="Graph2 Viz/Nodes/A"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(1024, 411)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("4_l5vf1")
+
+[node name="ALabel" type="Label" parent="Graph2 Viz/Nodes/A"]
+offset_left = 1016.0
+offset_top = 395.0
+offset_right = 1041.0
+offset_bottom = 430.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="B" type="Node" parent="Graph2 Viz/Nodes"]
+
+[node name="BNode" type="Sprite2D" parent="Graph2 Viz/Nodes/B"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(1200, 288)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("5_b018n")
+
+[node name="BLabel" type="Label" parent="Graph2 Viz/Nodes/B"]
+offset_left = 1192.0
+offset_top = 275.0
+offset_right = 1217.0
+offset_bottom = 310.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "B"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="C" type="Node" parent="Graph2 Viz/Nodes"]
+
+[node name="CNode" type="Sprite2D" parent="Graph2 Viz/Nodes/C"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(1200, 515)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("6_h82cg")
+
+[node name="CLabel" type="Label" parent="Graph2 Viz/Nodes/C"]
+offset_left = 1192.0
+offset_top = 499.0
+offset_right = 1217.0
+offset_bottom = 534.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "C"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="D" type="Node" parent="Graph2 Viz/Nodes"]
+
+[node name="DNode" type="Sprite2D" parent="Graph2 Viz/Nodes/D"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(1464, 288)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("8_113yw")
+
+[node name="DLabel" type="Label" parent="Graph2 Viz/Nodes/D"]
+offset_left = 1452.0
+offset_top = 270.0
+offset_right = 1477.0
+offset_bottom = 305.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "D"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E" type="Node" parent="Graph2 Viz/Nodes"]
+
+[node name="ENode" type="Sprite2D" parent="Graph2 Viz/Nodes/E"]
+modulate = Color(1, 1, 1, 0.764706)
+position = Vector2(1464, 513)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("7_u6dwj")
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Nodes/E"]
+offset_left = 1451.0
+offset_top = 495.0
+offset_right = 1476.0
+offset_bottom = 530.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_clr37")
+theme_override_font_sizes/font_size = 30
+text = "E"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Edges" type="Node" parent="Graph2 Viz"]
+
+[node name="E1" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E1"]
+visible = false
+z_index = -1
+position = Vector2(1154.4, 276)
+rotation = 0.909814
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 242.056, 1596.22)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E1"]
+visible = false
+offset_left = 1070.4
+offset_top = 314.0
+offset_right = 1100.4
+offset_bottom = 344.0
+theme_override_font_sizes/font_size = 20
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E2" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E2"]
+visible = false
+z_index = -1
+position = Vector2(1181.4, 485)
+rotation = 2.08686
+scale = Vector2(0.0922801, 0.0922801)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 211.396, 1624.35)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E2"]
+visible = false
+offset_left = 1072.4
+offset_top = 467.0
+offset_right = 1102.4
+offset_bottom = 497.0
+theme_override_font_sizes/font_size = 20
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E3" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E3"]
+visible = false
+z_index = -1
+position = Vector2(1234.4, 486)
+rotation = 3.12539
+scale = Vector2(0.0922801, 0.0922801)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 207.651, 1900.01)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E3"]
+visible = false
+offset_left = 1218.4
+offset_top = 381.0
+offset_right = 1248.4
+offset_bottom = 411.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E4" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E4"]
+visible = false
+z_index = -1
+position = Vector2(1164.4, 316)
+rotation = -0.0192254
+scale = Vector2(0.0922801, 0.0922801)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 201.065, 1943.97)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E4"]
+visible = false
+offset_left = 1149.4
+offset_top = 380.0
+offset_right = 1179.4
+offset_bottom = 410.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E5" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E5"]
+visible = false
+z_index = -1
+position = Vector2(1433.4, 265)
+rotation = 1.57242
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 244.114, 2073.33)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E5"]
+visible = false
+offset_left = 1328.4
+offset_top = 256.0
+offset_right = 1358.4
+offset_bottom = 286.0
+theme_override_font_sizes/font_size = 20
+text = "2
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E6" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E6"]
+visible = false
+z_index = -1
+position = Vector2(1435.4, 492)
+rotation = 1.57242
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 244.114, 2073.33)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E6"]
+visible = false
+offset_left = 1328.4
+offset_top = 534.0
+offset_right = 1358.4
+offset_bottom = 564.0
+theme_override_font_sizes/font_size = 20
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E7" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E7"]
+visible = false
+z_index = -1
+position = Vector2(1458.4, 471)
+rotation = 2.29274
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 287.205, 2894)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E7"]
+visible = false
+offset_left = 1384.4
+offset_top = 408.0
+offset_right = 1414.4
+offset_bottom = 438.0
+theme_override_font_sizes/font_size = 20
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E8" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E8"]
+visible = false
+z_index = -1
+position = Vector2(1424.4, 289)
+rotation = 0.866749
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 287.205, 2894)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E8"]
+visible = false
+offset_left = 1344.4
+offset_top = 334.0
+offset_right = 1374.4
+offset_bottom = 364.0
+theme_override_font_sizes/font_size = 20
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="E9" type="Node" parent="Graph2 Viz/Edges"]
+
+[node name="Edge" type="Line2D" parent="Graph2 Viz/Edges/E9"]
+visible = false
+z_index = -1
+position = Vector2(1441.4, 319)
+rotation = 0.0154134
+scale = Vector2(0.10077, 0.10077)
+points = PackedVector2Array(151.693, 78.1451, 240, -56, 321.774, 68.9515, 240, -56, 266.403, 1672.83)
+width = 50.0
+default_color = Color(0.847146, 0.848159, 0.843578, 1)
+joint_mode = 2
+
+[node name="ELabel" type="Label" parent="Graph2 Viz/Edges/E9"]
+visible = false
+offset_left = 1465.4
+offset_top = 384.0
+offset_right = 1495.4
+offset_bottom = 414.0
+theme_override_font_sizes/font_size = 20
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Node" parent="Graph2 Viz"]
+
+[node name="BA" type="Button" parent="Graph2 Viz/Button"]
+offset_left = 1090.0
+offset_top = 696.0
+offset_right = 1146.0
+offset_bottom = 744.0
+disabled = true
+text = "A"
+metadata/_edit_use_anchors_ = true
+
+[node name="BB" type="Button" parent="Graph2 Viz/Button"]
+offset_left = 1165.0
+offset_top = 696.0
+offset_right = 1221.0
+offset_bottom = 744.0
+disabled = true
+text = "B"
+metadata/_edit_use_anchors_ = true
+
+[node name="BC" type="Button" parent="Graph2 Viz/Button"]
+offset_left = 1237.0
+offset_top = 696.0
+offset_right = 1293.0
+offset_bottom = 744.0
+disabled = true
+text = "C"
+metadata/_edit_use_anchors_ = true
+
+[node name="BD" type="Button" parent="Graph2 Viz/Button"]
+offset_left = 1315.0
+offset_top = 696.0
+offset_right = 1371.0
+offset_bottom = 744.0
+disabled = true
+text = "D"
+metadata/_edit_use_anchors_ = true
+
+[node name="BE" type="Button" parent="Graph2 Viz/Button"]
+offset_left = 1397.0
+offset_top = 696.0
+offset_right = 1453.0
+offset_bottom = 744.0
+disabled = true
+text = "E"
+metadata/_edit_use_anchors_ = true
+
+[node name="SPT" type="Button" parent="Graph2 Viz/Button"]
+visible = false
+offset_left = 1149.0
+offset_top = 776.0
+offset_right = 1392.0
+offset_bottom = 824.0
+disabled = true
+text = "Shortest Path Tree"
+
+[node name="Label" type="Label" parent="Graph2 Viz/Button"]
+offset_left = 1032.0
+offset_top = 616.0
+offset_right = 1520.0
+offset_bottom = 664.0
+theme_override_font_sizes/font_size = 22
+text = "Reached Nodes. Click to see shortest path."
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="HelpButton" type="TextureButton" parent="."]
+offset_left = 1672.0
+offset_top = 40.0
+offset_right = 2696.0
+offset_bottom = 1064.0
+scale = Vector2(0.075, 0.075)
+texture_normal = ExtResource("12_nrsjv")
+stretch_mode = 0
+script = ExtResource("13_g4up3")
+
+[node name="Help" type="TextureRect" parent="."]
+visible = false
+offset_left = 1280.0
+offset_top = 128.0
+offset_right = 6421.0
+offset_bottom = 7061.0
+scale = Vector2(0.075, 0.075)
+texture = ExtResource("14_vjfh4")
+
+[connection signal="gui_input" from="BackButton" to="BackButton" method="_on_gui_input"]
+[connection signal="mouse_entered" from="BackButton" to="BackButton" method="_on_mouse_entered"]
+[connection signal="pressed" from="BackButton" to="BackButton" method="_on_pressed"]
+[connection signal="pressed" from="Graph2 Viz/Button/BA" to="." method="_on_button_pressed" binds= [1]]
+[connection signal="pressed" from="Graph2 Viz/Button/BB" to="." method="_on_button_pressed" binds= [2]]
+[connection signal="pressed" from="Graph2 Viz/Button/BC" to="." method="_on_button_pressed" binds= [3]]
+[connection signal="pressed" from="Graph2 Viz/Button/BD" to="." method="_on_button_pressed" binds= [4]]
+[connection signal="pressed" from="Graph2 Viz/Button/BE" to="." method="_on_button_pressed" binds= [5]]
+[connection signal="pressed" from="Graph2 Viz/Button/SPT" to="." method="_on_button_pressed" binds= [0]]
+[connection signal="mouse_entered" from="HelpButton" to="HelpButton" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="HelpButton" to="HelpButton" method="_on_mouse_exited"]

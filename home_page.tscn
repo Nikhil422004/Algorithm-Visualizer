@@ -1,0 +1,208 @@
+[gd_scene load_steps=11 format=3 uid="uid://b0d5b1bwauax6"]
+
+[ext_resource type="FontFile" uid="uid://wpmrg0jaaa0k" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf" id="2_cv7ps"]
+[ext_resource type="Script" path="res://card.gd" id="2_hj1v1"]
+[ext_resource type="Texture2D" uid="uid://bmxpiysfflf4w" path="res://PNGs/G1.png" id="3_u7ax8"]
+[ext_resource type="FontFile" uid="uid://dyvlxkhhfafql" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.ttf" id="4_nrgy3"]
+[ext_resource type="Texture2D" uid="uid://whwua384i0xu" path="res://PNGs/doc.png" id="5_8svjg"]
+[ext_resource type="Texture2D" uid="uid://dtc5psixa3qix" path="res://PNGs/G2.png" id="5_ikb86"]
+[ext_resource type="Texture2D" uid="uid://8eth6afhih1y" path="res://PNGs/G3.png" id="6_rp4ep"]
+[ext_resource type="Texture2D" uid="uid://do3q8g10j41n1" path="res://PNGs/G4.png" id="7_kg2ah"]
+[ext_resource type="Texture2D" uid="uid://mvlp0173prgd" path="res://PNGs/G5.png" id="8_n7v1u"]
+[ext_resource type="Texture2D" uid="uid://t1dxv734qoh4" path="res://PNGs/G6.png" id="9_s1myv"]
+
+[node name="HomePage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_hj1v1")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 1864.0
+offset_bottom = 1008.0
+color = Color(0.295867, 0.295867, 0.295866, 1)
+
+[node name="Heading" type="Label" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 1777.0
+offset_bottom = 187.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_cv7ps")
+theme_override_font_sizes/font_size = 90
+text = "Select a Graph to Visualize"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Card1" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 277.0
+offset_top = 200.0
+offset_right = 588.0
+offset_bottom = 453.0
+scale = Vector2(0.55, 0.55)
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="Card1"]
+layout_mode = 2
+texture = ExtResource("3_u7ax8")
+
+[node name="Label2" type="Label" parent="Card1"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.973535, 0.973535, 0.973535, 1)
+theme_override_colors/font_outline_color = Color(0.176547, 0.220314, 1, 1)
+theme_override_fonts/font = ExtResource("4_nrgy3")
+theme_override_font_sizes/font_size = 60
+text = "Graph 1"
+horizontal_alignment = 1
+
+[node name="Card2" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 728.0
+offset_top = 200.0
+offset_right = 1039.0
+offset_bottom = 453.0
+scale = Vector2(0.65, 0.65)
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="Card2"]
+layout_mode = 2
+texture = ExtResource("5_ikb86")
+
+[node name="Label2" type="Label" parent="Card2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.973535, 0.973535, 0.973535, 1)
+theme_override_colors/font_outline_color = Color(0.176547, 0.220314, 1, 1)
+theme_override_fonts/font = ExtResource("4_nrgy3")
+theme_override_font_sizes/font_size = 53
+text = "Graph 2"
+horizontal_alignment = 1
+
+[node name="Card3" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 1168.0
+offset_top = 200.0
+offset_right = 1479.0
+offset_bottom = 453.0
+scale = Vector2(0.505, 0.505)
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="Card3"]
+layout_mode = 2
+texture = ExtResource("6_rp4ep")
+
+[node name="Label2" type="Label" parent="Card3"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.973535, 0.973535, 0.973535, 1)
+theme_override_colors/font_outline_color = Color(0.176547, 0.220314, 1, 1)
+theme_override_fonts/font = ExtResource("4_nrgy3")
+theme_override_font_sizes/font_size = 68
+text = "Graph 3"
+horizontal_alignment = 1
+
+[node name="Card4" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 288.0
+offset_top = 568.0
+offset_right = 599.0
+offset_bottom = 821.0
+scale = Vector2(0.505, 0.505)
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="Card4"]
+layout_mode = 2
+texture = ExtResource("7_kg2ah")
+
+[node name="Label2" type="Label" parent="Card4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.973535, 0.973535, 0.973535, 1)
+theme_override_colors/font_outline_color = Color(0.176547, 0.220314, 1, 1)
+theme_override_fonts/font = ExtResource("4_nrgy3")
+theme_override_font_sizes/font_size = 68
+text = "Graph 4"
+horizontal_alignment = 1
+
+[node name="Card5" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 736.0
+offset_top = 568.0
+offset_right = 1047.0
+offset_bottom = 821.0
+scale = Vector2(0.55, 0.55)
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="Card5"]
+layout_mode = 2
+texture = ExtResource("8_n7v1u")
+
+[node name="Label2" type="Label" parent="Card5"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.973535, 0.973535, 0.973535, 1)
+theme_override_colors/font_outline_color = Color(0.176547, 0.220314, 1, 1)
+theme_override_fonts/font = ExtResource("4_nrgy3")
+theme_override_font_sizes/font_size = 63
+text = "Graph 5"
+horizontal_alignment = 1
+
+[node name="Card6" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 1176.0
+offset_top = 568.0
+offset_right = 1487.0
+offset_bottom = 821.0
+scale = Vector2(0.47, 0.47)
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="Card6"]
+layout_mode = 2
+texture = ExtResource("9_s1myv")
+
+[node name="Label2" type="Label" parent="Card6"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.973535, 0.973535, 0.973535, 1)
+theme_override_colors/font_outline_color = Color(0.176547, 0.220314, 1, 1)
+theme_override_fonts/font = ExtResource("4_nrgy3")
+theme_override_font_sizes/font_size = 68
+text = "Graph 6"
+horizontal_alignment = 1
+
+[node name="Docs" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 1632.0
+offset_top = 800.0
+offset_right = 2144.0
+offset_bottom = 1312.0
+scale = Vector2(0.25, 0.25)
+texture_normal = ExtResource("5_8svjg")
+texture_pressed = ExtResource("5_8svjg")
+
+[connection signal="gui_input" from="Card1" to="." method="_on_gui_input" binds= [1]]
+[connection signal="mouse_entered" from="Card1" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Card1" to="." method="_on_mouse_exited"]
+[connection signal="gui_input" from="Card2" to="." method="_on_gui_input" binds= [2]]
+[connection signal="mouse_entered" from="Card2" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Card2" to="." method="_on_mouse_exited"]
+[connection signal="gui_input" from="Card3" to="." method="_on_gui_input" binds= [3]]
+[connection signal="mouse_entered" from="Card3" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Card3" to="." method="_on_mouse_exited"]
+[connection signal="gui_input" from="Card4" to="." method="_on_gui_input" binds= [4]]
+[connection signal="mouse_entered" from="Card4" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Card4" to="." method="_on_mouse_exited"]
+[connection signal="gui_input" from="Card5" to="." method="_on_gui_input" binds= [5]]
+[connection signal="mouse_entered" from="Card5" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Card5" to="." method="_on_mouse_exited"]
+[connection signal="gui_input" from="Card6" to="." method="_on_gui_input" binds= [6]]
+[connection signal="mouse_entered" from="Card6" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Card6" to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Docs" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Docs" to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="Docs" to="." method="_on_docs_pressed"]

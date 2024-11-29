@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=3 uid="uid://butd87db0irug"]
+
+[ext_resource type="Script" path="res://SplashPage.gd" id="1_h6df1"]
+[ext_resource type="Texture2D" uid="uid://cqiap1duwahlu" path="res://PNGs/Splash BG.jpg" id="2_wtvd3"]
+[ext_resource type="FontFile" uid="uid://wpmrg0jaaa0k" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/cmu-typewriter/Typewriter/cmuntb.ttf" id="3_1bgl8"]
+[ext_resource type="FontFile" uid="uid://b5ot4xgog6p33" path="res://Assets/kenney_ui-pack/Font/Kenney Future Narrow.ttf" id="3_ivexg"]
+
+[node name="SplashPage" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_top = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_h6df1")
+
+[node name="SplashBg" type="Sprite2D" parent="."]
+position = Vector2(901.375, 466.625)
+scale = Vector2(0.349592, 0.319635)
+texture = ExtResource("2_wtvd3")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 312.0
+offset_right = 1471.0
+offset_bottom = 528.0
+theme_override_colors/font_color = Color(9.62615e-08, 0.493281, 0.754649, 1)
+theme_override_colors/font_shadow_color = Color(2.40654e-07, 0.169572, 0.276627, 1)
+theme_override_colors/font_outline_color = Color(2.40654e-07, 0.169572, 0.276627, 1)
+theme_override_fonts/font = ExtResource("3_1bgl8")
+theme_override_font_sizes/font_size = 110
+text = "ALGORITHM  VISUALIZER"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 616.0
+offset_top = 560.0
+offset_right = 1112.0
+offset_bottom = 680.0
+theme_override_colors/font_pressed_color = Color(0.649443, 0.844269, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_ivexg")
+theme_override_font_sizes/font_size = 50
+text = "START"
+autowrap_mode = 3
+
+[connection signal="mouse_entered" from="Button" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
