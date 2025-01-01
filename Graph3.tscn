@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dytj7rtoqpmf2" path="res://Assets/kenney_planets/Planets/planet00.png" id="1_kc30n"]
 [ext_resource type="FontFile" uid="uid://o4464lojjdxy" path="res://Assets/kenney_ui-pack/Font/Kenney Future.ttf" id="2_pq0by"]
 [ext_resource type="FontFile" uid="uid://beavhlqd0561i" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf" id="2_vp23w"]
-[ext_resource type="Texture2D" uid="uid://dd1ltgphlpng0" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="3_fyerr"]
+[ext_resource type="Texture2D" uid="uid://b7idx6ofi47xg" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="3_fyerr"]
 [ext_resource type="Script" path="res://back_button.gd" id="4_0nnna"]
 [ext_resource type="Texture2D" uid="uid://cxg1degjm28ug" path="res://Assets/kenney_planets/Planets/planet01.png" id="5_8wx6k"]
 [ext_resource type="Texture2D" uid="uid://cbi2a545ig8jh" path="res://Assets/kenney_planets/Planets/planet03.png" id="7_lsv6p"]
@@ -228,10 +228,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel1" type="Label" parent="Graph3/Edges/E1"]
-offset_left = 469.0
-offset_top = 305.0
-offset_right = 499.0
-offset_bottom = 335.0
+offset_left = 456.0
+offset_top = 303.0
+offset_right = 486.0
+offset_bottom = 333.0
 theme_override_font_sizes/font_size = 20
 text = "7"
 horizontal_alignment = 1
@@ -250,10 +250,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel2" type="Label" parent="Graph3/Edges/E2"]
-offset_left = 572.0
-offset_top = 309.0
-offset_right = 602.0
-offset_bottom = 339.0
+offset_left = 584.0
+offset_top = 303.0
+offset_right = 614.0
+offset_bottom = 333.0
 theme_override_font_sizes/font_size = 20
 text = "3"
 horizontal_alignment = 1
@@ -272,10 +272,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel3" type="Label" parent="Graph3/Edges/E3"]
-offset_left = 370.0
-offset_top = 277.0
-offset_right = 400.0
-offset_bottom = 307.0
+offset_left = 360.0
+offset_top = 273.0
+offset_right = 390.0
+offset_bottom = 303.0
 theme_override_font_sizes/font_size = 20
 text = "2"
 horizontal_alignment = 1
@@ -404,10 +404,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel9" type="Label" parent="Graph3/Edges/E9"]
-offset_left = 369.0
-offset_top = 443.0
-offset_right = 399.0
-offset_bottom = 473.0
+offset_left = 384.0
+offset_top = 464.0
+offset_right = 414.0
+offset_bottom = 494.0
 theme_override_font_sizes/font_size = 20
 text = "2"
 horizontal_alignment = 1
@@ -427,9 +427,9 @@ default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel10" type="Label" parent="Graph3/Edges/E10"]
 offset_left = 656.0
-offset_top = 443.0
+offset_top = 456.0
 offset_right = 686.0
-offset_bottom = 473.0
+offset_bottom = 486.0
 theme_override_font_sizes/font_size = 20
 text = "8"
 horizontal_alignment = 1

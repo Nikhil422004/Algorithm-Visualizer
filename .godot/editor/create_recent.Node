@@ -1,3 +1,5 @@
+Label
+LineEdit
 RichTextLabel
 TextureButton
 TextureRect
@@ -10,5 +12,3 @@ PopupPanel
 ColorRect
 Button
 Sprite2D
-Label
-Node

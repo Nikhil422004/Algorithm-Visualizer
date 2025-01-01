@@ -32,11 +32,14 @@ var bfs_step_index = 0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	_initialize_data()
+	init()
+	set_text(current_state)
+	
+func init():
 	_create_graph()
 	_initialize_bfs()
 	_initialize_dijkstras()
-	set_text(current_state)
-	
+		
 
 # Initialize graph and UI-related variables
 func _initialize_data():
@@ -114,10 +117,60 @@ func _initialize_data():
 		"SPT": $"Graph6 Viz/Button/SPT",
 	}
 	
+	convert_object_to_lineedit(labels)
+	
 	Header = $Graph6/Header
 	Instr = $Graph6/Instr
 	Textbox = $Graph6/Textbox
 	BLabel = $"Graph6 Viz/Button/Label"
+	
+func convert_object_to_lineedit(obj: Dictionary):
+	for key in obj.keys():
+		var node = obj[key]
+		if node is Label:
+			var line_edit = LineEdit.new()
+			line_edit.text = node.text
+			line_edit.editable = true
+			
+			# Set position
+			line_edit.global_position = node.global_position
+
+			# Set the size to a square
+			var square_size = 35  # Adjust the size of the square as needed
+			line_edit.custom_minimum_size = Vector2(square_size, square_size)
+
+			# Override minimum character width to 0
+			line_edit.add_theme_constant_override("minimum_character_width", 0)
+
+			# Set alignment to center
+			line_edit.alignment = 1
+
+			var parent = node.get_parent()
+			parent.add_child(line_edit)
+			obj[key] = line_edit
+			parent.remove_child(node)
+			node.queue_free()
+
+func convert_object_to_label(obj: Dictionary):
+	for key in obj.keys():
+		var node = obj[key]
+		if node is LineEdit:
+			var label = Label.new()
+			label.text = node.text
+			
+			# Set position and size
+			label.global_position = node.global_position
+			
+			var square_size = 35  # Adjust the size of the square as needed
+			label.custom_minimum_size = Vector2(square_size, square_size)
+			label.vertical_alignment = 1
+			label.horizontal_alignment = 1
+			
+			var parent = node.get_parent()
+			parent.add_child(label)
+			obj[key] = label
+			parent.remove_child(node)
+			node.queue_free()
 	
 # Dynamically initialize graph from edges and labels
 func _create_graph():
@@ -154,7 +207,7 @@ func _initialize_dijkstras():
 func set_text(state):
 	if state == AlgorithmState.INITIAL:
 		Header.text = ""
-		Instr.text = "Press Up Arrow for Dijkstras Algorithm.\n Press Right for Extended BFS Algorithm"
+		Instr.text = "Press Up Arrow for Dijkstras Algorithm.\n Press Right Arrow for Extended BFS Algorithm"
 		
 	else:
 		if state == AlgorithmState.DIJKSTRA:
@@ -168,7 +221,7 @@ func set_text(state):
 			if bfs.current_state_index == 0:
 				Instr.text = "Reched Initial State. Press Right Arrow for going forward and Left Arrow for going back.\n"
 			else:
-				Instr.text = "Press Right for going forward and Left Arrow for going back.\n"
+				Instr.text = "Press Right Arrow for going forward and Left Arrow for going back.\n"
 				
 # Input handling
 func _input(event):
@@ -178,6 +231,8 @@ func _input(event):
 		# Pass execution to Dijkstra's algorithm
 		if current_state == AlgorithmState.INITIAL:
 			current_state = AlgorithmState.DIJKSTRA
+			convert_object_to_label(labels)
+			init()
 			dijkstras._entry()
 		elif current_state == AlgorithmState.DIJKSTRA:
 			dijkstras.input(event)
@@ -185,6 +240,7 @@ func _input(event):
 		_clear_all_highlights()
 		if current_state == AlgorithmState.DIJKSTRA:
 			if dijkstras.current_step == 0:
+				convert_object_to_lineedit(labels)
 				current_state = AlgorithmState.INITIAL
 			else:
 				dijkstras.input(event)
@@ -193,6 +249,8 @@ func _input(event):
 		# Pass execution to BFS algorithm
 		_clear_all_highlights()
 		if current_state == AlgorithmState.INITIAL:
+			convert_object_to_label(labels)
+			init()
 			current_state = AlgorithmState.BFS
 			bfs._entry()
 		elif current_state == AlgorithmState.BFS:
@@ -202,6 +260,7 @@ func _input(event):
 		_clear_all_highlights()
 		if current_state == AlgorithmState.BFS:
 			if bfs.current_state_index == 0:
+				convert_object_to_lineedit(labels)
 				current_state = AlgorithmState.INITIAL
 			else:
 				bfs.input(event)

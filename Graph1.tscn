@@ -357,10 +357,14 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel1" type="Label" parent="Graph1/Edges/E1"]
-offset_left = 253.0
-offset_top = 279.0
-offset_right = 283.0
+anchors_preset = -1
+anchor_left = -0.0320139
+anchor_right = -0.0320139
+offset_left = 249.0
+offset_top = 274.0
+offset_right = 341.625
 offset_bottom = 309.0
+theme_override_constants/outline_size = 0
 theme_override_font_sizes/font_size = 20
 text = "3"
 horizontal_alignment = 1
@@ -379,10 +383,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel2" type="Label" parent="Graph1/Edges/E2"]
-offset_left = 256.0
-offset_top = 445.0
-offset_right = 286.0
-offset_bottom = 475.0
+offset_left = 245.0
+offset_top = 453.0
+offset_right = 280.0
+offset_bottom = 488.0
 theme_override_font_sizes/font_size = 20
 text = "5"
 horizontal_alignment = 1
@@ -401,10 +405,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel3" type="Label" parent="Graph1/Edges/E3"]
-offset_left = 497.0
-offset_top = 415.0
-offset_right = 527.0
-offset_bottom = 445.0
+offset_left = 526.0
+offset_top = 438.0
+offset_right = 561.0
+offset_bottom = 473.0
 theme_override_font_sizes/font_size = 20
 text = "3"
 horizontal_alignment = 1
@@ -423,10 +427,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel4" type="Label" parent="Graph1/Edges/E4"]
-offset_left = 322.0
-offset_top = 362.0
+offset_left = 317.0
+offset_top = 363.0
 offset_right = 352.0
-offset_bottom = 392.0
+offset_bottom = 398.0
 theme_override_font_sizes/font_size = 20
 text = "11"
 horizontal_alignment = 1
@@ -447,8 +451,8 @@ default_color = Color(0.847146, 0.848159, 0.843578, 1)
 [node name="ELabel5" type="Label" parent="Graph1/Edges/E5"]
 offset_left = 432.0
 offset_top = 183.0
-offset_right = 462.0
-offset_bottom = 213.0
+offset_right = 467.0
+offset_bottom = 218.0
 theme_override_font_sizes/font_size = 20
 text = "2
 "
@@ -470,8 +474,8 @@ default_color = Color(0.847146, 0.848159, 0.843578, 1)
 [node name="ELabel6" type="Label" parent="Graph1/Edges/E6"]
 offset_left = 607.0
 offset_top = 184.0
-offset_right = 637.0
-offset_bottom = 214.0
+offset_right = 642.0
+offset_bottom = 219.0
 theme_override_font_sizes/font_size = 20
 text = "3"
 horizontal_alignment = 1
@@ -490,10 +494,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel7" type="Label" parent="Graph1/Edges/E7"]
-offset_left = 765.0
+offset_left = 770.0
 offset_top = 259.0
-offset_right = 795.0
-offset_bottom = 289.0
+offset_right = 805.0
+offset_bottom = 294.0
 theme_override_font_sizes/font_size = 20
 text = "5"
 horizontal_alignment = 1
@@ -512,10 +516,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel8" type="Label" parent="Graph1/Edges/E8"]
-offset_left = 385.0
-offset_top = 410.0
-offset_right = 415.0
-offset_bottom = 440.0
+offset_left = 424.0
+offset_top = 435.0
+offset_right = 459.0
+offset_bottom = 470.0
 theme_override_font_sizes/font_size = 20
 text = "4"
 horizontal_alignment = 1
@@ -536,8 +540,8 @@ default_color = Color(0.847146, 0.848159, 0.843578, 1)
 [node name="ELabel9" type="Label" parent="Graph1/Edges/E9"]
 offset_left = 463.0
 offset_top = 260.0
-offset_right = 493.0
-offset_bottom = 290.0
+offset_right = 498.0
+offset_bottom = 295.0
 theme_override_font_sizes/font_size = 20
 text = "1"
 horizontal_alignment = 1
@@ -556,10 +560,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel10" type="Label" parent="Graph1/Edges/E10"]
-offset_left = 761.0
-offset_top = 453.0
-offset_right = 791.0
-offset_bottom = 483.0
+offset_left = 769.0
+offset_top = 457.0
+offset_right = 804.0
+offset_bottom = 492.0
 theme_override_font_sizes/font_size = 20
 text = "4"
 horizontal_alignment = 1
@@ -578,10 +582,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel11" type="Label" parent="Graph1/Edges/E11"]
-offset_left = 628.0
-offset_top = 344.0
-offset_right = 658.0
-offset_bottom = 374.0
+offset_left = 635.0
+offset_top = 334.0
+offset_right = 670.0
+offset_bottom = 369.0
 theme_override_font_sizes/font_size = 20
 text = "4"
 horizontal_alignment = 1
@@ -602,8 +606,8 @@ default_color = Color(0.847146, 0.848159, 0.843578, 1)
 [node name="ELabel12" type="Label" parent="Graph1/Edges/E12"]
 offset_left = 605.0
 offset_top = 537.0
-offset_right = 635.0
-offset_bottom = 567.0
+offset_right = 640.0
+offset_bottom = 572.0
 theme_override_font_sizes/font_size = 20
 text = "2"
 horizontal_alignment = 1
@@ -622,10 +626,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel13" type="Label" parent="Graph1/Edges/E13"]
-offset_left = 715.0
-offset_top = 362.0
-offset_right = 745.0
-offset_bottom = 392.0
+offset_left = 723.0
+offset_top = 361.0
+offset_right = 758.0
+offset_bottom = 396.0
 theme_override_font_sizes/font_size = 20
 text = "9"
 horizontal_alignment = 1
@@ -644,10 +648,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel14" type="Label" parent="Graph1/Edges/E14"]
-offset_left = 426.0
-offset_top = 548.0
-offset_right = 456.0
-offset_bottom = 578.0
+offset_left = 435.0
+offset_top = 537.0
+offset_right = 470.0
+offset_bottom = 572.0
 theme_override_font_sizes/font_size = 20
 text = "1"
 horizontal_alignment = 1

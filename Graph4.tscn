@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://G4_Main.gd" id="1_cxr6d"]
 [ext_resource type="FontFile" uid="uid://beavhlqd0561i" path="res://Assets/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/kirifont/KiriFont.otf" id="2_erc3u"]
-[ext_resource type="Texture2D" uid="uid://dd1ltgphlpng0" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="3_2je7c"]
+[ext_resource type="Texture2D" uid="uid://b7idx6ofi47xg" path="res://Assets/kenney_ui-pack/PNG/Grey/Double/arrow_decorative_w.png" id="3_2je7c"]
 [ext_resource type="Script" path="res://back_button.gd" id="4_jufvh"]
 [ext_resource type="Texture2D" uid="uid://cxg1degjm28ug" path="res://Assets/kenney_planets/Planets/planet01.png" id="5_e7rq6"]
 [ext_resource type="FontFile" uid="uid://o4464lojjdxy" path="res://Assets/kenney_ui-pack/Font/Kenney Future.ttf" id="6_b6f2u"]
@@ -325,10 +325,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel1" type="Label" parent="Graph4/Edges/E1"]
-offset_left = 285.0
-offset_top = 224.0
-offset_right = 315.0
-offset_bottom = 254.0
+offset_left = 288.0
+offset_top = 211.0
+offset_right = 318.0
+offset_bottom = 241.0
 theme_override_font_sizes/font_size = 20
 text = "1"
 horizontal_alignment = 1
@@ -391,10 +391,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel4" type="Label" parent="Graph4/Edges/E4"]
-offset_left = 490.0
-offset_top = 223.0
-offset_right = 520.0
-offset_bottom = 253.0
+offset_left = 493.0
+offset_top = 210.0
+offset_right = 523.0
+offset_bottom = 240.0
 theme_override_font_sizes/font_size = 20
 text = "2"
 horizontal_alignment = 1
@@ -457,10 +457,10 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel7" type="Label" parent="Graph4/Edges/E7"]
-offset_left = 691.0
-offset_top = 221.0
-offset_right = 721.0
-offset_bottom = 251.0
+offset_left = 694.0
+offset_top = 208.0
+offset_right = 724.0
+offset_bottom = 238.0
 theme_override_font_sizes/font_size = 20
 text = "1"
 horizontal_alignment = 1
@@ -810,6 +810,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E1" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E1"]
+visible = false
 z_index = -1
 position = Vector2(1226, 231)
 rotation = 1.5708
@@ -819,6 +820,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E1"]
+visible = false
 offset_left = 1135.0
 offset_top = 219.0
 offset_right = 1165.0
@@ -832,6 +834,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E2" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E2"]
+visible = false
 z_index = -1
 position = Vector2(1256, 471)
 rotation = 2.3719
@@ -841,6 +844,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E2"]
+visible = false
 offset_left = 1103.0
 offset_top = 362.0
 offset_right = 1133.0
@@ -854,6 +858,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E3" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E3"]
+visible = false
 z_index = -1
 position = Vector2(1077, 479)
 rotation = 3.15089
@@ -863,6 +868,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E3"]
+visible = false
 offset_left = 1012.0
 offset_top = 358.0
 offset_right = 1042.0
@@ -876,6 +882,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E4" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E4"]
+visible = false
 z_index = -1
 position = Vector2(1429, 232)
 rotation = 1.54746
@@ -885,6 +892,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E4"]
+visible = false
 offset_left = 1340.0
 offset_top = 218.0
 offset_right = 1370.0
@@ -898,6 +906,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E5" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E5"]
+visible = false
 z_index = -1
 position = Vector2(1454, 474)
 rotation = 2.51566
@@ -907,6 +916,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E5"]
+visible = false
 offset_left = 1308.0
 offset_top = 362.0
 offset_right = 1338.0
@@ -920,6 +930,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E6" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E6"]
+visible = false
 z_index = -1
 position = Vector2(1282, 476)
 rotation = 3.12181
@@ -929,6 +940,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E6"]
+visible = false
 offset_left = 1216.0
 offset_top = 364.0
 offset_right = 1246.0
@@ -942,6 +954,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E7" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E7"]
+visible = false
 z_index = -1
 position = Vector2(1630, 231)
 rotation = 1.57855
@@ -951,6 +964,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E7"]
+visible = false
 offset_left = 1541.0
 offset_top = 216.0
 offset_right = 1571.0
@@ -964,6 +978,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E8" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E8"]
+visible = false
 z_index = -1
 position = Vector2(1484, 477)
 rotation = 3.14966
@@ -973,6 +988,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E8"]
+visible = false
 offset_left = 1418.0
 offset_top = 358.0
 offset_right = 1448.0
@@ -986,6 +1002,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E9" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E9"]
+visible = false
 z_index = -1
 position = Vector2(1503, 502)
 rotation = -2.43756
@@ -995,6 +1012,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E9"]
+visible = false
 offset_left = 1521.0
 offset_top = 357.0
 offset_right = 1551.0
@@ -1008,6 +1026,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E10" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E10"]
+visible = false
 z_index = -1
 position = Vector2(1683, 478)
 rotation = -3.11331
@@ -1017,6 +1036,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E10"]
+visible = false
 offset_left = 1674.0
 offset_top = 358.0
 offset_right = 1704.0
@@ -1030,6 +1050,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E11" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E11"]
+visible = false
 z_index = -1
 position = Vector2(1231, 494)
 rotation = -4.73857
@@ -1039,6 +1060,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E11"]
+visible = false
 offset_left = 1137.0
 offset_top = 521.0
 offset_right = 1167.0
@@ -1052,6 +1074,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E12" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E12"]
+visible = false
 z_index = -1
 position = Vector2(1297.62, 532.768)
 rotation = -1.5729
@@ -1061,6 +1084,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E12"]
+visible = false
 offset_left = 1350.62
 offset_top = 520.768
 offset_right = 1380.62
@@ -1074,6 +1098,7 @@ metadata/_edit_use_anchors_ = true
 [node name="E13" type="Node" parent="Graph4 Viz/Edges"]
 
 [node name="Edge" type="Line2D" parent="Graph4 Viz/Edges/E13"]
+visible = false
 z_index = -1
 position = Vector2(1630, 491)
 rotation = -4.69287
@@ -1083,6 +1108,7 @@ width = 50.0
 default_color = Color(0.847146, 0.848159, 0.843578, 1)
 
 [node name="ELabel" type="Label" parent="Graph4 Viz/Edges/E13"]
+visible = false
 offset_left = 1538.0
 offset_top = 520.0
 offset_right = 1568.0

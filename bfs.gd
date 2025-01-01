@@ -53,6 +53,16 @@ func initialize_fb():
 	# Hide all fedges initially
 	for edge in fedges.values():
 		_set_fedge_visibility(edge, false)
+	
+	for key in labels.keys():
+		if fedges.has(key):
+			var label_node = labels[key]
+			var edge_node = fedges[key]
+
+			# Ensure the edge node has a child named 'ELabel'
+			var e_label = edge_node.get_node("ELabel")
+			if e_label and e_label is Label:
+				e_label.text = label_node.text
 
 	# Set all buttons inactive initially
 	for button in fbuttons.values():
