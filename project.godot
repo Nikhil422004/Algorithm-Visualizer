@@ -19,7 +19,8 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=1800
 window/size/viewport_height=950
-window/stretch/mode="viewport"
+window/energy_saving/keep_screen_on=false
+window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
 [editor_plugins]
@@ -28,4 +29,4 @@ enabled=PackedStringArray("res://addons/ImportCleaner/addons/ImportCleaner/plugi
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(0.176419, 0.176419, 0.176419, 1)
+environment/defaults/default_clear_color=Color(0.176471, 0.176471, 0.176471, 1)

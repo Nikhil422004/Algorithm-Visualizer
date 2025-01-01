@@ -24,9 +24,9 @@ script = ExtResource("1_kjhtc")
 
 [node name="Heading" type="Label" parent="."]
 offset_left = 727.0
-offset_top = 19.0
+offset_top = 31.0
 offset_right = 1063.0
-offset_bottom = 83.0
+offset_bottom = 95.0
 theme_override_fonts/font = ExtResource("2_vp6tw")
 theme_override_font_sizes/font_size = 45
 text = "Graph  1"
@@ -35,14 +35,10 @@ vertical_alignment = 1
 
 [node name="TextureButton" type="TextureButton" parent="."]
 anchors_preset = -1
-anchor_left = 0.028
-anchor_top = 0.037
-anchor_right = 0.056
-anchor_bottom = 0.086
-offset_left = -5.4
-offset_top = -7.15
-offset_right = 58.2
-offset_bottom = 47.3
+offset_left = 94.4
+offset_top = 71.15
+offset_right = 208.8
+offset_bottom = 181.7
 scale = Vector2(0.565535, 0.565535)
 texture_normal = ExtResource("12_hal7p")
 texture_pressed = ExtResource("12_hal7p")
@@ -52,10 +48,6 @@ script = ExtResource("12_joetg")
 [node name="Graph1" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 184.0
-offset_top = 130.0
-offset_right = 852.0
-offset_bottom = 884.0
 
 [node name="Nodes" type="Node" parent="Graph1"]
 
@@ -660,10 +652,10 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Header" type="Label" parent="Graph1"]
 layout_mode = 0
-offset_left = 149.0
-offset_top = -27.0
-offset_right = 554.0
-offset_bottom = 29.0
+offset_left = 322.0
+offset_top = 112.0
+offset_right = 727.0
+offset_bottom = 168.0
 theme_override_fonts/font = ExtResource("15_4bsk4")
 theme_override_font_sizes/font_size = 35
 horizontal_alignment = 1
@@ -672,27 +664,23 @@ uppercase = true
 
 [node name="Instr" type="Label" parent="Graph1"]
 layout_mode = 0
-offset_left = 116.0
-offset_top = 487.0
-offset_right = 620.0
-offset_bottom = 528.0
+offset_left = 289.0
+offset_top = 626.0
+offset_right = 793.0
+offset_bottom = 667.0
 
 [node name="Textbox" type="RichTextLabel" parent="Graph1"]
 layout_mode = 0
-offset_left = 137.0
-offset_top = 527.0
-offset_right = 430.0
-offset_bottom = 781.0
+offset_left = 310.0
+offset_top = 666.0
+offset_right = 603.0
+offset_bottom = 920.0
 bbcode_enabled = true
 scroll_following = true
 
 [node name="Graph1 Viz" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 1019.0
-offset_top = 168.0
-offset_right = 1663.0
-offset_bottom = 860.0
 
 [node name="Nodes" type="Node" parent="Graph1 Viz"]
 
@@ -1350,15 +1338,15 @@ texture = ExtResource("18_4kykn")
 [connection signal="gui_input" from="TextureButton" to="TextureButton" method="_on_gui_input"]
 [connection signal="mouse_entered" from="TextureButton" to="TextureButton" method="_on_mouse_entered"]
 [connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]
-[connection signal="pressed" from="Graph1 Viz/Button/BA" to="." method="_on_button_pressed" binds= [1]]
-[connection signal="pressed" from="Graph1 Viz/Button/BB" to="." method="_on_button_pressed" binds= [2]]
-[connection signal="pressed" from="Graph1 Viz/Button/BC" to="." method="_on_button_pressed" binds= [3]]
-[connection signal="pressed" from="Graph1 Viz/Button/BD" to="." method="_on_button_pressed" binds= [4]]
-[connection signal="pressed" from="Graph1 Viz/Button/BE" to="." method="_on_button_pressed" binds= [5]]
-[connection signal="pressed" from="Graph1 Viz/Button/BF" to="." method="_on_button_pressed" binds= [6]]
-[connection signal="pressed" from="Graph1 Viz/Button/BG" to="." method="_on_button_pressed" binds= [7]]
-[connection signal="pressed" from="Graph1 Viz/Button/BH" to="." method="_on_button_pressed" binds= [8]]
-[connection signal="pressed" from="Graph1 Viz/Button/BI" to="." method="_on_button_pressed" binds= [9]]
-[connection signal="pressed" from="Graph1 Viz/Button/SPT" to="." method="_on_button_pressed" binds= [0]]
+[connection signal="pressed" from="Graph1 Viz/Button/BA" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BB" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BC" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BD" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BE" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BF" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BG" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BH" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/BI" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Graph1 Viz/Button/SPT" to="." method="_on_button_pressed"]
 [connection signal="mouse_entered" from="HelpButton" to="HelpButton" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="HelpButton" to="HelpButton" method="_on_mouse_exited"]
