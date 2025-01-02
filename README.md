@@ -30,15 +30,15 @@ Algorithm Visualizer is an interactive tool for visualizing **Extended Breadth-F
    - Hover over the info button (ℹ️) for a detailed legend.
 
 ## Desktop Applications
-Desktop apps are available in the `Apps` folder.  
+Desktop apps are available in the [Apps](https://drive.google.com/drive/folders/1AKTXVmAiH7ix8xX0iPxh3FovovEUhfgk?usp=drive_link) folder.  
 
 ### Installation
 - **Windows/Linux:**
-  - Download the respective folder from the `Apps` directory.
+  - Download the respective folder from the `Apps` directory in the link.
   - Run the executable file.
 - **iOS:**
-  - Download the ZIP file from [this link](https://drive.google.com/file/d/1PkCAuhWPVNd0M9OxAR1khoV9QfMrzT6Z/view?usp=sharing).
-  - Extract and run the application from `iOS/MacOS/Algorithm Visualizer`.
+  - Download the respective folder from the `Apps` directory in the link.
+  - Run the application from `iOS/MacOS/Algorithm Visualizer`.
 
 ## Future Enhancements
 - Additional algorithm visualizations (e.g., A*, Floyd-Warshall).
