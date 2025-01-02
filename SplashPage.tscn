@@ -16,6 +16,14 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_h6df1")
 
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1188.0
+offset_top = -603.0
+offset_right = 1284.0
+offset_bottom = 861.0
+color = Color(0.890196, 0.890196, 0.890196, 1)
+
 [node name="SplashBg" type="Sprite2D" parent="."]
 position = Vector2(58.6243, 2.37488)
 scale = Vector2(0.372933, 0.319635)
