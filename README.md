@@ -38,7 +38,7 @@ Desktop apps are available in the `Apps` folder.
   - Run the executable file.
 - **iOS:**
   - Download the ZIP file from [this link](https://drive.google.com/file/d/1PkCAuhWPVNd0M9OxAR1khoV9QfMrzT6Z/view?usp=sharing).
-  - Extract and run the application from `iOS->MacOS->Algorithm Visualizer`.
+  - Extract and run the application from `iOS/MacOS/Algorithm Visualizer`.
 
 ## Future Enhancements
 - Additional algorithm visualizations (e.g., A*, Floyd-Warshall).
