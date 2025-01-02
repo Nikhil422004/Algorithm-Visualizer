@@ -50,5 +50,6 @@ Desktop apps are available in the `Apps` folder.
 
 ## Acknowledgments
 Special thanks to educators and students for inspiring this tool to bridge theoretical understanding and practical application.
+
 Special thanks to Dr. Krithika Ramaswamy for her constant support and mentorship.
 
