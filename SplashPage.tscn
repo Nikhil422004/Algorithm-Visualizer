@@ -18,10 +18,10 @@ script = ExtResource("1_h6df1")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
-offset_left = -1188.0
-offset_top = -603.0
-offset_right = 1284.0
-offset_bottom = 861.0
+offset_left = -1700.0
+offset_top = -1147.0
+offset_right = 1764.0
+offset_bottom = 1093.0
 color = Color(0.890196, 0.890196, 0.890196, 1)
 
 [node name="SplashBg" type="Sprite2D" parent="."]
