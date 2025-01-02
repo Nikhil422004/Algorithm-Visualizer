@@ -29,12 +29,13 @@ Algorithm Visualizer is an interactive tool for visualizing **Extended Breadth-F
 4. **Access Information:**
    - Hover over the info button (ℹ️) for a detailed legend.
 
-## Desktop/Web Applications
-The web application can be accessed using the following link - [Algorithm Visulaizer](https://nikhil422004.github.io/Algorithm-Visualizer/)
+## Desktop/ Web Applications
+The web application can be accessed using the following link - [Algorithm Visulaizer](https://nikhil422004.github.io/Algorithm-Visualizer/) 
+
 Desktop apps are available in the [Apps](https://drive.google.com/drive/folders/1AKTXVmAiH7ix8xX0iPxh3FovovEUhfgk?usp=drive_link) folder.  
 
 ### Installation
-Download the respective folder from the `Apps` directory in the link.
+Download the respective folder from the `Apps` directory in the link above.
 - **Windows/Linux:** 
   - Run the executable file from the folder.
 - **iOS:**
